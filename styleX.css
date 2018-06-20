@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  src: url('./Amatic_SC/AmaticSC-Regular.ttf') format('truetype');
+}
+
+/*@media only screen
+and (min-width : 1224px) {
+}*/
+
+body {
+  background-color: #fcfdff;
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+}
+
+.intro_image {
+  font-size: 50px;
+  margin-top: 28px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  background-image: url("./Pics/DSC_2649.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: block;
+  height: 450px;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  top: 0;
+}
+
+.SFD {
+
+  font-size: 85px;
+  font-family: 'Amatic SC';
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: white;
+}
+
+.menu>li {
+  padding: 0px 15px 0px 15px;
+  font-weight: bold;
+  color: #1f3f00;
+}
+
+ul {
+  font-size: 16px;
+  padding: -40px 5px 5px 5px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-right: 3%;
+  margin-left: 0px;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  font-size: bold;
+}
+
+li a {
+  text-decoration: none;
+  display: block;
+  padding: -40px 20px 5px 20px;
+  background-color: #fcfdff;
+}
+
+.menu>li>a {
+  color: #1f3f00;
+  padding: 4px 20px 5px 2px;
+}
+
+
+
+.titel {
+  float: left;
+  width: 400px;
+  height: 300px;
+  font-weight: bold;
+  color: #9BA63C;
+  font-family: "Open Sans";
+  font-size: 28px;
+  margin-top: -70px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 30px;
+  float: left;
+  padding: 0.5px 0px 0.5px 10px;
+}
+
+.valueProposition p {
+  line-height: 50px;
+  font-family: "Open Sans";
+  font-size: 30px;
+  margin-top: 300px;
+  margin-bottom: 30px;
+  margin-right: 0px;
+  margin-left: 630px;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 300px;
+  font-weight: bold;
+  color: #9BA63C;
+  text-align: center;
+}
+
+.Trailer {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 200px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.Kapitelüberschrift {
+  font-size: 65px;
+  font-family: 'Amatic SC';
+  color: #CB7458;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bio{
+  color: #9BA63C;
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+  padding-top: 60px;
+}
+
+.Was_bedeutet_Regional_für_Fresa {
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0.5px 0px 0.5px 10px;
+  margin-top: 180px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 630px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 850px;
+  height: 300px;
+  color: black;
+  font-size: 20px;
+  text-align: inherit;
+}
+
+.overlay3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  top: 0;
+}
+
+.WarumBio_image {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-image: url("./Pics/warumbio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: block;
+  height: 650px;gij
+  background-position: center;
+  position: relative;
+}
+
+
+
+.warumBio{
+
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 60px;
+  text-decoration: none;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  z-index:3;
+
+}
+
+.Wer_nutzt_Fresa{
+
+  font-size: 65px;
+  font-family: 'Amatic SC';
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  color: #CB7458;
+}
