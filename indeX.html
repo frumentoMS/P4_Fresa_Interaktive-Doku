@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>Fresa</title>
   <meta charset="utf-8" />
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/bootstrap-responsive.css" rel="stelesheet">
   <link href="styleX.css" rel="stylesheet">
 
   <title></title>
@@ -15,16 +13,47 @@
 <body>
 
 
-  <div class="titel">
+<div class="title">
     <h1>Fresa</h1>
   </div>
 
-  <ul class="menu">
-    <li><a href="default.asp">Design</a></li>
-    <li><a href="news.asp">Hannah</a></li>
-    <li><a href="contact.asp">Team</a></li>
-    <li><a href="about.asp">Marketing</a></li>
+<ul class="menu" id ="myHeader">
+    <li><a href="willkommen.asp">Willkommen</a></li>
+    <li><a href="vorstellung.asp">Vorstellungsvideo</a></li>
+    <li><a href="wasistfresa.asp">Was ist Fresa?</a></li>
+    <li><a href="technik.asp">Technik</a></li>
+    <li><a href="kontakt.asp">Kontakt</a></li>
   </ul>
+
+
+<!-- Versuch einen fixed Header zu ertsellen
+Gefunden auf https://www.w3schools.com/howto/howto_js_sticky_header.asp
+
+<div class="title" id ="myTitle">
+    <h1>Fresa</h1>
+</div>
+
+<script>
+
+  window.onscroll = function() {myFunction()};
+
+    var title = document.getElementById("myTitle");
+    var sticky = title.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            title.classList.add("sticky");
+      } else {
+            title.classList.remove("sticky");
+      }
+  }
+    }
+  }
+
+</script>
+
+-->
+<!-- Ende javascript -->
 
   <div class="intro_image">
     <div class="overlay">
@@ -41,7 +70,7 @@
     <div class="video centered-content">
       <a class="circle-canvas close-video" href="javascript:void(0)" id="video-close" rel="tooltipTOP" data-original-title="close"></a>
       <video width="70%" height="80%" id="video" class="video" controls>
-            <source src="Sercin Babyparty.mp4">
+            <source src="trailer.mp4">
           </video>
     </div>
   </div>
@@ -72,7 +101,119 @@
   <h2 class="Kapitelüberschrift">Wer nutzt Fresa?</h2>
 </div>
   <script type='text/javascript' src="jquery.js"></script>
-  <script scr="js/bootstrao.js"></script>
 </body>
+
+
+<div class="Persona">
+  <h2 class="Kapitelüberschrift">Das ist Tine.</h2>
+  <p>Tine ist in Nordhessen aufgewachsen und möchte gern frische Lebensmittel in ihr Leben integrieren, da sie sich von Grund auf gesund ernährt. Sie ist daran interessiert eine ausgewogene Work-Life-Balance zu haben.
+    Ihr Mann und sie sind Foodies und kochen leidenschaftlich gerne. Sie verfolgen die neusten Trends für die Küche. Beide sind berufstätig und haben sehr wenig Zeit einzukaufen. Sie sind beide äußerst technikaffin und täglich im Internet.
+    Tine legt großen Wert auf die ganzjährige Verfügbarkeit ihr Lieblingsprodukte Paprika und Zucchini.
+     An einem typischen Wochentag ist Tine von morgens gegen 07:30 Uhr bis abends gegen 18 Uhr arbeiten. In der Mittagspause hat sie am liebsten etwas selbstgemachtes dabei, was sie sich dann in der Firmenküche aufwärmt und in Gesellschaft ihrer liebsten Arbeitskollegen genießt.
+     Leider lässt ihr langer Tag jedoch nicht immer Zeit dafür übrig, Lebensmittel einzukaufen, die noch dazu frisch sind. Denn nach der Arbeit erwartet Tine nicht immer schon der Feierabend sondern oft auch weitere Termine und Verpflichtungen, wie Arztbesuche, Haushalt und familiäre Angelegenheiten.
+
+     Tine vermisst einen Service, welcher ihr dabei hilft beim Einkaufen frischer Lebensmittel mehr auf Regionalität zu achten, ihr Zeit spart und der abwechslungsreich ist.
+  </p>
+</div>
+  <script type='text/javascript' src="jquery.js"></script>
+
+
+
+  <div class="Was_ist_Fresa">
+    <h2 class="Kapitelüberschrift">Was ist Fresa?</h2>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+  </div>
+    <script type='text/javascript' src="jquery.js"></script>
+  </body>
+</body>
+
+<div class="Bestandteile">
+  <h2 class="Kapitelüberschrift">Bestandteile von Fresa</h2>
+</div>
+<style>
+        img {
+            float: right;
+        }
+
+</style>
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
+<p>
+  <img src="./Pics/mal.png" alt="Bio" width= "300px" height="300px" margin-left="5px" margin-bottom= "20px">
+
+  <script type='text/javascript' src="jquery.js"></script>
+</body>
+</body>
+
+<div class="Materialstudie_image">
+  <div class="overlay4">
+    </div>
+  <h2 class="Kapitelüberschrift">Unsere Materialien</h2>
+    <div class="Materialstudie">
+  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  </p>
+</div>
+  <script type='text/javascript' src="jquery.js"></script>
+</body>
+</body>
+
+
+<div class="Preise">
+  <h2 class="Kapitelüberschrift">Unsere Preise</h2>
+  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  </p>
+</div>
+  <script type='text/javascript' src="jquery.js"></script>
+
+  <div class="Technik">
+    <h2 class="Kapitelüberschrift">So funktionierts</h2>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+  </div>
+    <script type='text/javascript' src="jquery.js"></script>
+
+
+    <div class="technikVideo">
+      <div class="video centered-content">
+        <a class="circle-canvas close-video" href="javascript:void(0)" id="video-close" rel="tooltipTOP" data-original-title="close"></a>
+        <video width="70%" height="80%" id="video" class="video" controls>
+              <source src="technikVideo.mp4">
+            </video>
+      </div>
+    </div>
+
+
+    <div class="Kontakt">
+      <h2 class="Kapitelüberschrift">Kontakt</h2>
+      <div class="row">
+  <div class="column">
+    <img src="./Pics/marco.png" alt="Marco" style="width:100%" "height:100%">
+    <p>Marco Frumento
+    marco.frumento@fresa.de</p>
+  </div>
+  <div class="column">
+    <img src="./Pics/hannah.png" alt="Hannah" style="width:100%" "height:100%">
+    <p>Sabine Reitmaier
+    sabine.reitmaier@fresa.de</p>
+  </div>
+  <div class="column">
+    <img src="./Pics/hannah.png" alt="Sabine" style="width:100%" "height:100%">
+    <p>Jan Meininghaus
+    jan.meininghaus@fresa.de</p>
+  </div>
+  <div class="column">
+    <img src="./Pics/jan.png" alt="Jan" style="width:100%" "height:100%">
+    <p>Hannah Ackermann
+    hannah.ackermann@fresa.de</p>
+  </div>
+
+
+
 
 </html>

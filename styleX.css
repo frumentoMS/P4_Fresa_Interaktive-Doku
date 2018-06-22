@@ -29,7 +29,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   display: block;
-  height: 450px;
+  height: 650px;
   background-position: center;
   position: relative;
 }
@@ -45,10 +45,10 @@ body {
 
 .SFD {
 
-  font-size: 85px;
+  font-size: 70px;
   font-family: 'Amatic SC';
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-decoration: none;
@@ -64,7 +64,7 @@ body {
 ul {
   font-size: 16px;
   padding: -40px 5px 5px 5px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 0px;
   margin-right: 3%;
   margin-left: 0px;
@@ -90,8 +90,7 @@ li a {
 }
 
 
-
-.titel {
+.title {
   float: left;
   width: 400px;
   height: 300px;
@@ -107,10 +106,20 @@ li a {
   padding: 0.5px 0px 0.5px 10px;
 }
 
+/* fixed header Versuch
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+  padding-top: 102px;
+}
+*/
+
 .valueProposition p {
   line-height: 50px;
   font-family: "Open Sans";
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 300px;
   margin-bottom: 30px;
   margin-right: 0px;
@@ -185,11 +194,10 @@ li a {
   background-repeat: no-repeat;
   width: 100%;
   display: block;
-  height: 650px;gij
+  height: 650px;
   background-position: center;
   position: relative;
 }
-
 
 
 .warumBio{
@@ -218,4 +226,172 @@ li a {
   margin-bottom: 0px;
   margin-right: 0px;
   color: #CB7458;
+  text-align: center;
+}
+
+.Persona{
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 60px;
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  z-index:3;
+
+}
+
+.Was_ist_Fresa{
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 60px;
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  z-index:3;
+}
+
+.Bestandteile{
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 60px;
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  z-index:3;
+}
+
+.overlay4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  top: 0;
+}
+
+.Materialstudie_image {
+  font-size: 25px;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-image: url("./Pics/material.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: block;
+  height: 650px;
+  background-position: center;
+  position: relative;
+}
+
+.Materialstudie{
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 200px;
+  text-decoration: none;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  z-index:3;
+}
+
+.Preise{
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 210px;
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  z-index:3;
+}
+
+.Technik{
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 100px;
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  z-index:3;
+}
+
+.technikVideo {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.Kontakt{
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 270px;
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  z-index:3;
+}
+
+/*Führt zu einem Zeilenumbruch, sodass Name und Mail in verschiedenen Zeilen sind.*/
+div {
+    word-wrap: break-word;
+}
+
+/* macht die Teambilder in eine Reihe*/
+.column {
+  float: left;
+  width: 22%;
+  padding: 10px;
+  align: center;
+  margin-top: 70px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
