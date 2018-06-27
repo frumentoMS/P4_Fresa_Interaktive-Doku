@@ -44,7 +44,6 @@ body {
 }
 
 .SFD {
-
   font-size: 70px;
   font-family: 'Amatic SC';
   position: absolute;
@@ -88,7 +87,6 @@ li a {
   color: #1f3f00;
   padding: 4px 20px 5px 2px;
 }
-
 
 .title {
   float: left;
@@ -148,7 +146,7 @@ li a {
   text-align: center;
 }
 
-.bio{
+.bio {
   color: #9BA63C;
   position: relative;
   z-index: 2;
@@ -199,9 +197,7 @@ li a {
   position: relative;
 }
 
-
-.warumBio{
-
+.warumBio {
   line-height: 35px;
   font-family: 'Open Sans';
   padding: 0px 0px 0px 0px;
@@ -214,22 +210,147 @@ li a {
   color: white;
   font-size: 20px;
   text-align: center;
-  z-index:3;
-
+  z-index: 3;
 }
 
-.Wer_nutzt_Fresa{
+.Verbraucher {
+  color: #CB7458;
+  position: relative;
+  z-index: 2;
+  margin-top: 80px;
+  padding-top: 60px;
+}
 
-  font-size: 65px;
-  font-family: 'Amatic SC';
-  margin-top: 100px;
+.Verbraucher_image {
+  font-size: 25px;
+  margin-top: -445px;
   margin-bottom: 0px;
   margin-right: 0px;
-  color: #CB7458;
-  text-align: center;
+  margin-left: 665px;
+  background-image: url("./Pics/VerbraucherMarkt.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35%;
+  display: block;
+  height: 400px;
+  background-position: center;
+  position: relative;
 }
 
-.Persona{
+.Wer_nutzt_Fresa {
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0.5px 0px 0.5px 10px;
+  margin-top: 210px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 430px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 300px;
+  color: black;
+  font-size: 20px;
+  text-align: inherit;
+}
+
+.Wer_nutzt_Fresa2 {
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0.5px 0px 0.5px 10px;
+  margin-top: 140px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 705px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 850px;
+  height: 300px;
+  color: black;
+  font-size: 20px;
+  text-align: inherit;
+}
+
+.Wer_nutzt_Fresa3 {
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0.5px 0px 0.5px 10px;
+  margin-top: -265px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 630px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 850px;
+  height: 300px;
+  color: black;
+  font-size: 20px;
+  text-align: inherit;
+}
+
+.Vertrauen {
+  color: #CB7458;
+  position: relative;
+  z-index: 2;
+  margin-top: 100px;
+  padding-top: 60px;
+}
+
+.VertrauenText {
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0.5px 0px 0.5px 10px;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 630px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 850px;
+  height: 300px;
+  color: WH;
+  font-size: 20px;
+  text-align: inherit;
+}
+
+.Fresa_Design {
+  color: white;
+  position: relative;
+  z-index: 3;
+  margin-top: 20px;
+  padding-top: 60px;
+}
+
+.FresaDesign_image {
+  font-size: 25px;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-image: url("./Pics/brainstorming.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: block;
+  height: 650px;
+  background-position: center;
+  position: relative;
+}
+
+.overlay4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  top: 0;
+}
+
+.Was_macht_Fresa {
   line-height: 35px;
   font-family: 'Open Sans';
   padding: 0px 0px 0px 0px;
@@ -239,13 +360,94 @@ li a {
   margin-top: 60px;
   text-decoration: none;
   position: relative;
-  color: black;
+  color: white;
   font-size: 20px;
   text-align: center;
-  z-index:3;
+  z-index: 3;
+}
+
+.FresaBestandteile {
+  color: #9BA63C;
+  position: relative;
+  z-index: 2;
+  margin-top: 80px;
+  padding-top: 60px;
+}
+
+.Kapitelpunkte{
+  font-family: 'Open Sans';
+  font-size: 40px;
+  color: #CB7458;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: -60px;
 
 }
 
+.Fresa-Konzept_image{
+font-size: 25px;
+margin-top: -245px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 665px;
+background-image: url("./Pics/mal.png");
+background-size: cover;
+background-repeat: no-repeat;
+width: 35%;
+display: block;
+height: 400px;
+background-position: center;
+position: relative;
+
+}
+
+.Fresa-Konzept{
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+  margin-right: 550px;
+  margin-left: 150px;
+  margin-top: 0px;
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-size: 20px;
+
+}
+
+.Tine {
+  font-size: 65px;
+  font-family: 'Amatic SC';
+  color: #CB7458;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.tineText{
+  line-height: 35px;
+  font-family: 'Open Sans';
+  padding: 0.5px 0px 0.5px 10px;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 630px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 850px;
+  height: 300px;
+  color: WH;
+  font-size: 20px;
+  text-align: inherit;
+}
+
+/*
 .Was_ist_Fresa{
   line-height: 35px;
   font-family: 'Open Sans';
@@ -375,13 +577,15 @@ li a {
   z-index:3;
 }
 
-/*Führt zu einem Zeilenumbruch, sodass Name und Mail in verschiedenen Zeilen sind.*/
-div {
+Führt zu einem Zeilenumbruch, sodass Name und Mail in verschiedenen Zeilen sind.*/
+
+/*div {
     word-wrap: break-word;
 }
 
-/* macht die Teambilder in eine Reihe*/
-.column {
+ macht die Teambilder in eine Reihe*/
+
+/*.column {
   float: left;
   width: 22%;
   padding: 10px;
@@ -389,9 +593,11 @@ div {
   margin-top: 70px;
 }
 
-/* Clear floats after image containers */
+ Clear floats after image containers
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
+
+/*
