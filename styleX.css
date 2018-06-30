@@ -19,9 +19,36 @@ body {
   padding: 0;
 }
 
+nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 99999;
+  background-color: #fff;
+  width: 100%;
+}
+
+.title {
+  float: left;
+  width: 400px;
+  font-weight: bold;
+  color: #9BA63C;
+  font-family: "Open Sans";
+  font-size: 28px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 30px;
+  float: left;
+  padding: 0.5px 0px 0.5px 10px;
+}
+
+.title h1 {
+  margin: 0
+}
+
 .intro_image {
   font-size: 50px;
-  margin-top: 28px;
   margin-bottom: 0px;
   margin-right: 0px;
   background-image: url("./Pics/DSC_2649.jpg");
@@ -32,6 +59,7 @@ body {
   height: 650px;
   background-position: center;
   position: relative;
+  padding-top: 100px;
 }
 
 .overlay {
@@ -60,15 +88,18 @@ body {
   color: #1f3f00;
 }
 
-ul {
+.menu {
   font-size: 16px;
   padding: -40px 5px 5px 5px;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 3%;
   margin-left: 0px;
   list-style-type: none;
   overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 li {
@@ -88,22 +119,6 @@ li a {
   padding: 4px 20px 5px 2px;
 }
 
-.title {
-  float: left;
-  width: 400px;
-  height: 300px;
-  font-weight: bold;
-  color: #9BA63C;
-  font-family: "Open Sans";
-  font-size: 28px;
-  margin-top: -70px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 30px;
-  float: left;
-  padding: 0.5px 0px 0.5px 10px;
-}
-
 /* fixed header Versuch
 
 .sticky {
@@ -113,22 +128,29 @@ li a {
   padding-top: 102px;
 }
 */
+
 sup {
-    vertical-align: super;
-    font-size: 18px;
+  vertical-align: super;
+  font-size: 18px;
+}
+
+.section {
+  height: auto;
+  padding: 50px 0;
+  margin: 50px 0;
+}
+
+.section p {
+  margin: 0 auto;
+  width: 60%;
 }
 
 .valueProposition p {
   line-height: 50px;
   font-family: "Open Sans";
   font-size: 20px;
-  margin-top: 300px;
-  margin-bottom: 30px;
-  margin-right: 0px;
-  margin-left: 630px;
-  transform: translate(-50%, -50%);
+  margin: 0 auto;
   width: 70%;
-  height: 300px;
   font-weight: bold;
   color: #9BA63C;
   text-align: center;
@@ -148,6 +170,7 @@ sup {
   color: #CB7458;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .bio {
@@ -158,35 +181,20 @@ sup {
   padding-top: 60px;
 }
 
-.Alleinstellungsmerkmale{
+.Alleinstellungsmerkmale p {
   line-height: 35px;
   font-family: 'Open Sans';
-  padding: 0.5px 0px 0.5px 10px;
-  margin-top: 180px;
-  margin-bottom: 0px;
-  margin-right: 30px;
-  margin-left: 630px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 0 auto;
   width: 850px;
-  height: 300px;
   color: black;
   font-size: 20px;
   text-align: inherit;
 }
 
-.Was_bedeutet_Regional_für_Fresa {
+.Was_bedeutet_Regional_für_Fresa p {
   line-height: 35px;
   font-family: 'Open Sans';
-  padding: 0.5px 0px 0.5px 10px;
-  margin-top: 180px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 630px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 0 auto;
   width: 850px;
   height: 300px;
   color: black;
@@ -222,11 +230,8 @@ sup {
 .warumBio {
   line-height: 35px;
   font-family: 'Open Sans';
-  padding: 0px 0px 0px 0px;
-  margin-bottom: 0px;
-  margin-right: 150px;
-  margin-left: 150px;
-  margin-top: 60px;
+  width: 75%;
+  margin: 0 auto;
   text-decoration: none;
   position: relative;
   color: white;
@@ -245,69 +250,22 @@ sup {
 
 .Verbraucher_image {
   font-size: 25px;
-  margin-top: -445px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 665px;
   background-image: url("./Pics/VerbraucherMarkt.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 35%;
+  max-width: 400px;
   display: block;
   height: 400px;
   background-position: center;
   position: relative;
+  float: right;
+  margin-right: 22%;
 }
 
 .Wer_nutzt_Fresa {
   line-height: 35px;
   font-family: 'Open Sans';
-  padding: 0.5px 0px 0.5px 10px;
-  margin-top: 210px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 430px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 450px;
-  height: 300px;
-  color: black;
-  font-size: 20px;
-  text-align: inherit;
-}
-
-.Wer_nutzt_Fresa2 {
-  line-height: 35px;
-  font-family: 'Open Sans';
-  padding: 0.5px 0px 0.5px 10px;
-  margin-top: 140px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 705px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 850px;
-  height: 300px;
-  color: black;
-  font-size: 20px;
-  text-align: inherit;
-}
-
-.Wer_nutzt_Fresa3 {
-  line-height: 35px;
-  font-family: 'Open Sans';
-  padding: 0.5px 0px 0.5px 10px;
-  margin-top: -265px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 630px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 850px;
-  height: 300px;
   color: black;
   font-size: 20px;
   text-align: inherit;
@@ -324,16 +282,6 @@ sup {
 .VertrauenText {
   line-height: 35px;
   font-family: 'Open Sans';
-  padding: 0.5px 0px 0.5px 10px;
-  margin-top: 200px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 630px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 850px;
-  height: 300px;
   color: WH;
   font-size: 20px;
   text-align: inherit;
@@ -353,12 +301,13 @@ sup {
   margin-bottom: 0px;
   margin-right: 0px;
   margin-left: 0px;
+  padding-bottom: 50px;
   background-image: url("./Pics/brainstorming.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   display: block;
-  height: 650px;
+  height: auto;
   background-position: center;
   position: relative;
 }
@@ -396,7 +345,7 @@ sup {
   padding-top: 60px;
 }
 
-.Kapitelpunkte{
+.Kapitelpunkte {
   font-family: 'Open Sans';
   font-size: 40px;
   color: #CB7458;
@@ -404,27 +353,25 @@ sup {
   margin-right: 150px;
   margin-left: 150px;
   margin-top: -60px;
-
 }
 
-.Fresa-Konzept_image{
-font-size: 25px;
-margin-top: -245px;
-margin-bottom: 0px;
-margin-right: 0px;
-margin-left: 665px;
-background-image: url("./Pics/mal.png");
-background-size: cover;
-background-repeat: no-repeat;
-width: 35%;
-display: block;
-height: 400px;
-background-position: center;
-position: relative;
-
+.Fresa-Konzept_image {
+  font-size: 25px;
+  margin-top: -245px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 665px;
+  background-image: url("./Pics/mal.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35%;
+  display: block;
+  height: 400px;
+  background-position: center;
+  position: relative;
 }
 
-.Fresa-Konzept{
+.Fresa-Konzept {
   line-height: 35px;
   font-family: 'Open Sans';
   padding: 0px 0px 0px 0px;
@@ -436,40 +383,23 @@ position: relative;
   position: relative;
   color: black;
   font-size: 20px;
-
 }
 
 .Tine {
   font-size: 65px;
   font-family: 'Amatic SC';
   color: #CB7458;
-  margin: 0 auto;
   text-align: center;
-  margin-bottom: 0px;
-  margin-right: 150px;
-  margin-left: 150px;
-  margin-top: 100px;
 }
 
-.tineText{
+.tineText {
   line-height: 35px;
   font-family: 'Open Sans';
-  padding: 0.5px 0px 0.5px 10px;
-  margin-top: 200px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 630px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 850px;
-  height: 300px;
-  color: WH;
   font-size: 20px;
   text-align: inherit;
 }
 
-.Was_ist_Fresa{
+.Was_ist_Fresa {
   line-height: 35px;
   font-family: 'Open Sans';
   padding: 0px 0px 0px 0px;
@@ -482,10 +412,10 @@ position: relative;
   color: black;
   font-size: 20px;
   text-align: center;
-  z-index:3;
+  z-index: 3;
 }
 
-.Bestandteile{
+.Bestandteile {
   line-height: 35px;
   font-family: 'Open Sans';
   padding: 0px 0px 0px 0px;
@@ -498,7 +428,7 @@ position: relative;
   color: black;
   font-size: 20px;
   text-align: center;
-  z-index:3;
+  z-index: 3;
 }
 
 .Materialstudie_image {
@@ -517,7 +447,6 @@ position: relative;
   position: relative;
 }
 
-
 .overlay5 {
   position: absolute;
   width: 100%;
@@ -527,39 +456,29 @@ position: relative;
   top: 0;
 }
 
-.Materialstudie{
+.Materialstudie {
   line-height: 35px;
   font-family: 'Open Sans';
-  padding: 0px 0px 0px 0px;
-  margin-bottom: 0px;
-  margin-right: 150px;
-  margin-left: 150px;
-  margin-top: 200px;
   text-decoration: none;
   position: relative;
   color: white;
   font-size: 20px;
   text-align: center;
-  z-index:3;
+  z-index: 3;
 }
 
-.Preise{
+.Preise {
   line-height: 35px;
   font-family: 'Open Sans';
-  padding: 0px 0px 0px 0px;
-  margin-bottom: 0px;
-  margin-right: 150px;
-  margin-left: 150px;
-  margin-top: 210px;
   text-decoration: none;
   position: relative;
   color: black;
   font-size: 20px;
   text-align: center;
-  z-index:3;
+  z-index: 3;
 }
 
-.Technik{
+.Technik {
   line-height: 35px;
   font-family: 'Open Sans';
   padding: 0px 0px 0px 0px;
@@ -572,7 +491,7 @@ position: relative;
   color: black;
   font-size: 20px;
   text-align: center;
-  z-index:3;
+  z-index: 3;
 }
 
 .technikVideo {
@@ -583,7 +502,7 @@ position: relative;
   margin-left: 0px;
 }
 
-.Kontakt{
+.Kontakt {
   line-height: 35px;
   font-family: 'Open Sans';
   padding: 0px 0px 0px 0px;
@@ -596,15 +515,17 @@ position: relative;
   color: black;
   font-size: 10px;
   text-align: center;
-  z-index:3;
+  z-index: 3;
 }
 
 /*Führt zu einem Zeilenumbruch, sodass Name und Mail in verschiedenen Zeilen sind.*/
+
 div {
-    word-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* macht die Teambilder in eine Reihe*/
+
 .column {
   float: left;
   width: 22%;
@@ -614,12 +535,9 @@ div {
 }
 
 /* Clear floats after image containers */
+
 .row::after {
   content: "";
   clear: both;
-  display: table;
-}
-
-;
   display: table;
 }
