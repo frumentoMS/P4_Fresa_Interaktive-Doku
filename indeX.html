@@ -9,7 +9,6 @@
 
   <title></title>
 </head>
-
 <body>
 
 
@@ -18,11 +17,11 @@
   </div>
 
 <ul class="menu" id ="myHeader">
-    <li><a href="willkommen.asp">Willkommen</a></li>
-    <li><a href="vorstellung.asp">Vorstellungsvideo</a></li>
-    <li><a href="wasistfresa.asp">Was ist Fresa?</a></li>
-    <li><a href="technik.asp">Technik</a></li>
-    <li><a href="kontakt.asp">Kontakt</a></li>
+    <li><a href="#willkommen">Willkommen</a></li>
+    <li><a href="#vorschau">Trailer</a></li>
+    <li><a href="#wasistfresa">Was ist Fresa</a></li>
+    <li><a href="#technik">Technik</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
   </ul>
 
 
@@ -61,12 +60,14 @@ Gefunden auf https://www.w3schools.com/howto/howto_js_sticky_header.asp
       <h2 class="SFD">Sustainable Fresh Delivery</h2>
   </div>
 
-  <div class="valueProposition">
-    <p>Für ernährungs- und umweltbewusste Personen, die wenig Zeit zum Einkaufen haben, ist Fresa das Mikrodepot und der Lieferservice regionaler Lebensmittel, der Zeit spart und den Bezug zur Regionalität schafft. Im Gegensatz zu anderen Lieferdiensten
-      und Einzelhändlern liefert Fresa faire, frische Ware in personalisierten Boxen an frei wählbare Lieferstationen.</p>
+  <div class="valueProposition" id="willkommen">
+    <p>Für ernährungs- und umweltbewusste Personen, die wenig Zeit zum Einkaufen haben,
+      ist Fresa das Mikrodepot und der Lieferservice regionaler Lebensmittel, der Zeit spart
+      und den Bezug zur Regionalität schafft. Im Gegensatz zu anderen Lieferdiensten und
+      Einzelhändlern liefert Fresa faire, frische Ware in personalisierten Boxen an frei wählbare Lieferstationen.</p>
   </div>
 
-  <div class="Trailer">
+  <div class="Trailer" id="vorschau">
     <div class="video centered-content">
       <a class="circle-canvas close-video" href="javascript:void(0)" id="video-close" rel="tooltipTOP" data-original-title="close"></a>
       <video width="70%" height="80%" id="video" class="video" controls>
@@ -75,12 +76,25 @@ Gefunden auf https://www.w3schools.com/howto/howto_js_sticky_header.asp
     </div>
   </div>
 
+  <div class="Alleinstellungsmerkmale">
+    <h2 class="Kapitelüberschrift">Darum ist Fresa einzigartig</h2>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+  </div>
+
+
   <h2 class="Kapitelüberschrift">Was bedeutet Regional für Fresa?</h2>
 
   <div class="Was_bedeutet_Regional_für_Fresa">
-    <p>Die Verbraucherstudie „Wie steht der Verbraucher heutzutage zur Regionalität?" 3 aus dem Jahr 2013 beschäftigte sich intensiv mit der Entwicklung der Begriff e Regionalität und Bio in unserer Gesellschaft so wie ihrer Bedeutung in eben dieser. „Im
-      Vergleich zu Bio wird Regionalität in der Zukunft immer wichtiger." 4 Der Begriff Regionalität gewinnt immer mehr an Aufmerksamkeit. Die Regale unserer Supermärkte geben häufi ger Platz für Produkte, die mit der Aufschrift „regional" werben. Wie
-      steht der Verbraucher heutzutage zur Regionalität? Die Händler haben den Trend schon lange entdeckt und hoff en durch regional erzeugten Produkte mehr Kunden an ihre Märkte zu binden und den Kauf in gewisser Weise zu emotionalisieren.</p>
+    <p>Die Verbraucherstudie „Wie steht der Verbraucher heutzutage zur Regionalität?" aus dem Jahr
+      2013 beschäftigte sich intensiv mit der Entwicklung der Begriff e Regionalität und Bio in
+      unserer Gesellschaft so wie ihrer Bedeutung in eben dieser. „Im Vergleich zu Bio wird Regionalität
+      in der Zukunft immer wichtiger." Der Begriff Regionalität gewinnt immer mehr an Aufmerksamkeit.
+      Die Regale unserer Supermärkte geben häufi ger Platz für Produkte, die mit der Aufschrift
+      „regional" werben. Wie steht der Verbraucher heutzutage zur Regionalität? Die Händler haben den
+       Trend schon lange entdeckt und hoff en durch regional erzeugten Produkte mehr Kunden an ihre
+       Märkte zu binden und den Kauf in gewisser Weise zu emotionalisieren.</p>
   </div>
 
 
@@ -89,10 +103,13 @@ Gefunden auf https://www.w3schools.com/howto/howto_js_sticky_header.asp
     </div>
       <h2 class="Kapitelüberschrift bio">Warum Bio?</h2>
       <div class="warumBio"
-      <p>Auf die Frage, wer oder was das Interesse an Bio-Lebensmitteln gestärkt und geweckt hat, antworteten ganze 65% der Befragten in einer Studie des Bundesministerium für Ernährung und Landwirtschaft, dass es von privaten Kontakten stammt,
-         welche ebenfalls Nutzer/-innen von Bioprodukten sind.
-        Als zweithäufigste Aussage stellte sich die ärztliche Empfehlung und eigene Initiative als Anregung heraus, Bio-Lebensmittel zu verzehren. Andere relativ häufig genannte Beweggründe waren etwa reine Neugier oder neue Produkte im gewohnten Supermarkt Sortiment auszuprobieren,
-         sowie Werbung durch Bioläden und Beratung in diesem oder direkt vom Erzeuger. 1
+      <p>Auf die Frage, wer oder was das Interesse an Bio-Lebensmitteln gestärkt und geweckt hat,
+        antworteten ganze 65% der Befragten in einer Studie des Bundesministerium für Ernährung und
+        Landwirtschaft, dass es von privaten Kontakten stammt, welche ebenfalls Nutzer/-innen von
+        Bioprodukten sind. Als zweithäufigste Aussage stellte sich die ärztliche Empfehlung und
+        eigene Initiative als Anregung heraus, Bio-Lebensmittel zu verzehren. Andere relativ häufig
+        genannte Beweggründe waren etwa reine Neugier oder neue Produkte im gewohnten Supermarkt
+        Sortiment auszuprobieren, sowie Werbung durch Bioläden und Beratung in diesem oder direkt vom Erzeuger. </sup>1
       </p>
     </div>
   </div>
@@ -100,8 +117,12 @@ Gefunden auf https://www.w3schools.com/howto/howto_js_sticky_header.asp
 
   <h2 class="Kapitelüberschrift Verbraucher">Wer nutzt Fresa?</h2>
   <div class="Wer_nutzt_Fresa"
-  <p>Um den möglichen Nutzer besser kennen zu lernen, wurden Befragungen und ausführliche Interviews geführt. Ziel dieser Befragungen war es, Meinungen und Erfahrungen zum Thema Lieferdienste für Lebensmittel und regionale Lebensmittel selber zu sammeln.
-    Diese Feldrecherche wurde an den verschiedensten Orten gehalten, wie dem Wochenmarkt in Darmstadt, Offenbach und Frankfurt. Zu dem wurden Erfahrungen aus Amsterdam mit in die Recherche einbezogen, da die Niederlande sehr viel weiter ist, was neue interessante Services angeht.
+  <p>Um den möglichen Nutzer besser kennen zu lernen, wurden Befragungen und ausführliche Interviews
+    geführt. Ziel dieser Befragungen war es, Meinungen und Erfahrungen zum Thema Lieferdienste für
+    Lebensmittel und regionale Lebensmittel selber zu sammeln. Diese Feldrecherche wurde an den
+    verschiedensten Orten gehalten, wie dem Wochenmarkt in Darmstadt, Offenbach und Frankfurt.
+    Zu dem wurden Erfahrungen aus Amsterdam mit in die Recherche einbezogen, da die Niederlande sehr
+    viel weiter ist, was neue interessante Services angeht.
   </p>
 </div>
 <div class="Verbraucher_image">
@@ -111,16 +132,33 @@ Gefunden auf https://www.w3schools.com/howto/howto_js_sticky_header.asp
 </p>
 </div>
 <div class="Wer_nutzt_Fresa3">
-  <p>ketten wie „Albert Heijn” ein Lieferservice angeboten. Dieser ist aber nur für besondere Anlässe angedacht, da er erst ab einem Einkauf ab 70€ angeboten wird. So fällt dieses Angebot für viele Alleinlebende weg, da sie selten einen so großen Einkauf tätigen.
-Darüber hinaus werden viele Arbeitsstätten täglich mit fertigem Essen beliefert. Wie für die Niederlande üblich, wird dies per Fahrradkurier ausgeliefert. Dies ist gerade in Amsterdam sehr vorteilhaft, da dort fast alles mit dem Fahrrad erledigt werden kann. Befragte aus Darmstadt und Umgebung haben mit den Angeboten von Lieferservices gemischte Erfahrungen. Bei den deutschen E-Food Angeboten existiert wie in den Niederlanden auch ein hoher Mindestbestellwert. Dieser liegt bei 40 Euro und ist abschreckend für die meisten Kunden. Dies ist auch bei den Nutzerbefragungen herausgekommen.
+  <p>ketten wie „Albert Heijn” ein Lieferservice angeboten. Dieser ist aber nur für besondere Anlässe
+     angedacht, da er erst ab einem Einkauf ab 70€ angeboten wird. So fällt dieses Angebot für viele
+     Alleinlebende weg, da sie selten einen so großen Einkauf tätigen. Darüber hinaus werden viele
+     Arbeitsstätten täglich mit fertigem Essen beliefert. Wie für die Niederlande üblich, wird dies
+     per Fahrradkurier ausgeliefert. Dies ist gerade in Amsterdam sehr vorteilhaft, da dort fast
+     alles mit dem Fahrrad erledigt werden kann. Befragte aus Darmstadt und Umgebung haben mit den
+     Angeboten von Lieferservices gemischte Erfahrungen. Bei den deutschen E-Food Angeboten existiert
+      wie in den Niederlanden auch ein hoher Mindestbestellwert. Dieser liegt bei 40 Euro und ist
+      abschreckend für die meisten Kunden. Dies ist auch bei den Nutzerbefragungen herausgekommen.
 </p>
 </div>
   <h2 class="Kapitelüberschrift Tine">Das ist Tine.</h2>
   <div class="tineText"
-  <p>Tine ist in Nordhessen aufgewachsen und möchte gern frische Lebensmittel in ihr Leben integrieren, da sie sich von Grund auf gesund ernährt. Sie ist daran interessiert eine ausgewogene Work-Life-Balance zu haben.
-    Ihr Mann und sie sind Foodies und kochen leidenschaftlich gerne. Sie verfolgen die neusten Trends für die Küche. Beide sind berufstätig und haben sehr wenig Zeit einzukaufen. Sie sind beide äußerst technikaffin und täglich im Internet. Tine legt großen Wert auf die ganzjährige Verfügbarkeit ihr Lieblingsprodukte Paprika und Zucchini.
-     An einem typischen Wochentag ist Tine von morgens gegen 07:30 Uhr bis abends gegen 18 Uhr arbeiten. In der Mittagspause hat sie am liebsten etwas selbstgemachtes dabei, was sie sich dann in der Firmenküche aufwärmt und in Gesellschaft ihrer liebsten Arbeitskollegen genießt.
-     Leider lässt ihr langer Tag jedoch nicht immer Zeit dafür übrig, Lebensmittel einzukaufen, die noch dazu frisch sind. Denn nach der Arbeit erwartet Tine nicht immer schon der Feierabend sondern oft auch weitere Termine und Verpflichtungen, wie Arztbesuche, Haushalt und familiäre Angelegenheiten. Tine vermisst einen Service, welcher ihr dabei hilft beim Einkaufen frischer Lebensmittel mehr auf Regionalität zu achten, ihr Zeit spart und der abwechslungsreich ist.
+  <p>Tine ist in Nordhessen aufgewachsen und möchte gern frische Lebensmittel in ihr Leben
+    integrieren, da sie sich von Grund auf gesund ernährt. Sie ist daran interessiert eine
+    ausgewogene Work-Life-Balance zu haben. Ihr Mann und sie sind Foodies und kochen leidenschaftlich
+    gerne. Sie verfolgen die neusten Trends für die Küche. Beide sind berufstätig und haben sehr
+    wenig Zeit einzukaufen. Sie sind beide äußerst technikaffin und täglich im Internet. Tine legt
+    großen Wert auf die ganzjährige Verfügbarkeit ihr Lieblingsprodukte Paprika und Zucchini. An einem
+    typischen Wochentag ist Tine von morgens gegen 07:30 Uhr bis abends gegen 18 Uhr arbeiten.
+    In der Mittagspause hat sie am liebsten etwas selbstgemachtes dabei, was sie sich dann in der
+    Firmenküche aufwärmt und in Gesellschaft ihrer liebsten Arbeitskollegen genießt. Leider lässt ihr
+    langer Tag jedoch nicht immer Zeit dafür übrig, Lebensmittel einzukaufen, die noch dazu frisch
+    sind. Denn nach der Arbeit erwartet Tine nicht immer schon der Feierabend sondern oft auch
+    weitere Termine und Verpflichtungen, wie Arztbesuche, Haushalt und familiäre Angelegenheiten.
+    Tine vermisst einen Service, welcher ihr dabei hilft beim Einkaufen frischer Lebensmittel mehr
+    auf Regionalität zu achten, ihr Zeit spart und der abwechslungsreich ist.
   </p>
 </div>
 <h2 class="Kapitelüberschrift Vertrauen">Vertrauen</h2>
@@ -128,12 +166,25 @@ Darüber hinaus werden viele Arbeitsstätten täglich mit fertigem Essen beliefe
 <p>Der direkte Kontakt vom Verkäufer zum Kunden, das ist es, was Menschen schätzen, wenn es um regionale Lebensmittel geht. Bei der Begrüßung angefangen, wird der Kaufprozess von mehreren Ereignissen begleitet. Diese führen dazu, dass der Kunde einen Bezug zum Produkt und zum Erzeuger entwickelt. Hierzu gehören aber auch die Ware anfassen, daran riechen und das Produkt mit allen Sinnen erleben. Das alles schafft die nötige Vertrauensbasis und ist wesentlicher Bestandteil beim Kauf von regionalen Lebensmitteln. Menschen, die bewusst regionale Lebensmittel kaufen, möchten auf diese Dinge nicht verzichten. Umfragen auf städtischen Wochenmärkten bestätigten dies. Die eben genannten Faktoren fallen im Online Lebensmittelhandel weg und sind so gut wie nicht zu ersetzen. Darum ist es notwendig, einen Online Markt für regionale Lebensmittel mit einer Anlaufstelle zu kombinieren, die dazu dient, dem Kunden einen Bezug zum Produkt sowie zum Erzeuger zu ermöglichen.
 </p>
 </div>
+
+
 <div class="FresaDesign_image">
   <div class="overlay4">
   </div>
     <h2 class="Kapitelüberschrift Fresa_Design">Was macht Fresa?</h2>
     <div class="Was_macht_Fresa">
-    <p>Der direkte Kontakt vom Verkäufer zum Kunden, das ist es, was Menschen schätzen, wenn es um regionale Lebensmittel geht. Bei der Begrüßung angefangen, wird der Kaufprozess von mehreren Ereignissen begleitet. Diese führen dazu, dass der Kunde einen Bezug zum Produkt und zum Erzeuger entwickelt. Hierzu gehören aber auch die Ware anfassen, daran riechen und das Produkt mit allen Sinnen erleben. Das alles schafft die nötige Vertrauensbasis und ist wesentlicher Bestandteil beim Kauf von regionalen Lebensmitteln. Menschen, die bewusst regionale Lebensmittel kaufen, möchten auf diese Dinge nicht verzichten. Umfragen auf städtischen Wochenmärkten bestätigten dies. Die eben genannten Faktoren fallen im Online Lebensmittelhandel weg und sind so gut wie nicht zu ersetzen. Darum ist es notwendig, einen Online Markt für regionale Lebensmittel mit einer Anlaufstelle zu kombinieren, die dazu dient, dem Kunden einen Bezug zum Produkt sowie zum Erzeuger zu ermöglichen.
+    <p>Der direkte Kontakt vom Verkäufer zum Kunden, das ist es, was Menschen schätzen,
+      wenn es um regionale Lebensmittel geht. Bei der Begrüßung angefangen, wird der
+      Kaufprozess von mehreren Ereignissen begleitet. Diese führen dazu, dass der Kunde
+      einen Bezug zum Produkt und zum Erzeuger entwickelt. Hierzu gehören aber auch die
+      Ware anfassen, daran riechen und das Produkt mit allen Sinnen erleben. Das alles
+      schafft die nötige Vertrauensbasis und ist wesentlicher Bestandteil beim Kauf von
+      regionalen Lebensmitteln. Menschen, die bewusst regionale Lebensmittel kaufen,
+      möchten auf diese Dinge nicht verzichten. Umfragen auf städtischen Wochenmärkten
+      bestätigten dies. Die eben genannten Faktoren fallen im Online Lebensmittelhandel
+      weg und sind so gut wie nicht zu ersetzen. Darum ist es notwendig, einen Online Markt
+      für regionale Lebensmittel mit einer Anlaufstelle zu kombinieren, die dazu dient, dem
+      Kunden einen Bezug zum Produkt sowie zum Erzeuger zu ermöglichen.
     </p>
   </div>
 </div>
@@ -151,7 +202,6 @@ Darüber hinaus werden viele Arbeitsstätten täglich mit fertigem Essen beliefe
 </div>
 
 
-<!--
   <div class="Was_ist_Fresa">
     <h2 class="Kapitelüberschrift">Was ist Fresa?</h2>
     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -159,7 +209,7 @@ Darüber hinaus werden viele Arbeitsstätten täglich mit fertigem Essen beliefe
     </p>
   </div>
 
-<div class="Bestandteile">
+<div class="Bestandteile" id="#wasistfresa">
   <h2 class="Kapitelüberschrift">Bestandteile von Fresa</h2>
 </div>
 <style>
@@ -178,7 +228,7 @@ Darüber hinaus werden viele Arbeitsstätten täglich mit fertigem Essen beliefe
 
 
 <div class="Materialstudie_image">
-  <div class="overlay4">
+  <div class="overlay5">
     </div>
   <h2 class="Kapitelüberschrift">Unsere Materialien</h2>
     <div class="Materialstudie">
@@ -194,7 +244,7 @@ Darüber hinaus werden viele Arbeitsstätten täglich mit fertigem Essen beliefe
   </p>
 </div>
 
-  <div class="Technik">
+  <div class="Technik" id="#technik">
     <h2 class="Kapitelüberschrift">So funktionierts</h2>
     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -209,9 +259,8 @@ Darüber hinaus werden viele Arbeitsstätten täglich mit fertigem Essen beliefe
             </video>
       </div>
     </div>
--->
 
-    <!--<div class="Kontakt">
+    <div class="Kontakt" id=#kontakt>
       <h2 class="Kapitelüberschrift">Kontakt</h2>
       <div class="row">
   <div class="column">
