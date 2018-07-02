@@ -48,12 +48,12 @@ nav {
 }
 
 .intro_image {
-  font-size: 50px;
+  font-size: 100px;
   margin-bottom: 0px;
   margin-right: 0px;
-  background-image: url("./Pics/DSC_2649.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  zzbackground-image: url("./Pics/DSC_2649.jpg");
+  zzbackground-size: cover;
+  zzbackground-repeat: no-repeat;
   width: 100%;
   display: block;
   height: 650px;
@@ -73,13 +73,15 @@ nav {
 
 .SFD {
   font-size: 70px;
+  color: #CB7458;
   font-family: 'Amatic SC';
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-decoration: none;
-  color: white;
+  text-shadow: 10px;
+  font-weight: bold;
 }
 
 .menu>li {
@@ -213,7 +215,7 @@ sup {
 
 .WarumBio_image {
   font-size: 25px;
-  margin-top: 50px;
+  margin-top: .0px;
   margin-bottom: 0px;
   margin-right: 0px;
   margin-left: 0px;
@@ -230,7 +232,7 @@ sup {
 .warumBio {
   line-height: 35px;
   font-family: 'Open Sans';
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
   text-decoration: none;
   position: relative;
@@ -540,4 +542,27 @@ div {
   content: "";
   clear: both;
   display: table;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
