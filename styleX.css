@@ -35,6 +35,10 @@ nav {
   opacity: 0.8;
 }
 
+.text {
+  font-size: 16px;
+}
+
 .title {
   float: left;
   width: 400px;
@@ -133,16 +137,6 @@ li a {
   padding: 4px 20px 5px 2px;
 }
 
-/* fixed header Versuch
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-  padding-top: 102px;
-}
-*/
-
 sup {
   vertical-align: super;
   font-size: 18px;
@@ -162,7 +156,6 @@ sup {
 .valueProposition p {
   line-height: 50px;
   font-family: "Open Sans";
-  font-size: 20px;
   margin: 0 auto;
   width: 70%;
   font-weight: bold;
@@ -201,7 +194,6 @@ sup {
   margin: 0 auto;
   width: 850px;
   color: black;
-  font-size: 20px;
   text-align: inherit;
 }
 
@@ -212,7 +204,6 @@ sup {
   width: 850px;
   height: 300px;
   color: black;
-  font-size: 20px;
   text-align: inherit;
 }
 
@@ -226,7 +217,6 @@ sup {
 }
 
 .WarumBio_image {
-  font-size: 25px;
   margin-top: .0px;
   margin-bottom: 0px;
   margin-right: 0px;
@@ -249,9 +239,33 @@ sup {
   text-decoration: none;
   position: relative;
   color: white;
-  font-size: 20px;
   text-align: center;
   z-index: 3;
+}
+
++}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
 
 .Verbraucher {
@@ -283,7 +297,6 @@ sup {
   line-height: 35px;
   font-family: 'Open Sans';
   color: black;
-  font-size: 20px;
   text-align: inherit;
 }
 
@@ -300,7 +313,6 @@ sup {
   line-height: 35px;
   font-family: 'Open Sans';
   color: WH;
-  font-size: 20px;
   text-align: inherit;
 }
 
@@ -349,7 +361,6 @@ sup {
   text-decoration: none;
   position: relative;
   color: white;
-  font-size: 20px;
   text-align: center;
   z-index: 3;
 }
@@ -521,7 +532,6 @@ sup {
 .tineText {
   line-height: 35px;
   font-family: 'Open Sans';
-  font-size: 20px;
   text-align: inherit;
   margin-bottom: -40px;
 }
@@ -571,7 +581,6 @@ sup {
   text-decoration: none;
   position: relative;
   color: white;
-  font-size: 20px;
   text-align: center;
   z-index: 3;
 }
@@ -677,7 +686,6 @@ sup {
   text-decoration: none;
   position: relative;
   color: white;
-  font-size: 20px;
   text-align: center;
   z-index: 3;
 }
@@ -712,7 +720,6 @@ sup {
   line-height: 35px;
   font-family: 'Open Sans';
   color: black;
-  font-size: 20px;
   text-align: inherit;
 }
 
@@ -857,4 +864,8 @@ div {
   margin-right: 300px;
   margin-top: -20px;
 
+}
+
+p{
+  size:12px;
 }
