@@ -37,7 +37,7 @@ video {
 
 img {
   max-width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .navopacity {
@@ -287,10 +287,15 @@ sup {
   max-width: 100%;
   height: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 #slideshow>img {
+  width: 1920px;
+  height: 80vh;
   position: absolute;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 /* Fading animation */
@@ -400,8 +405,8 @@ sup {
   background-image: url("./Pics/brainstorming.jpg");
 }
 
-.sectionHeader.produkt {
-  background-image: url("./Pics/material.jpg");
+.sectionHeader.bio {
+  background-image: url("./Pics/warumbio.jpg");
 }
 
 .overlay4 {
