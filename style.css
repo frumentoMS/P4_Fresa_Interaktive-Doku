@@ -214,18 +214,31 @@ sup {
 
 .usp {
   display: flex;
+  justify-content: center;
 }
 
-.usp.block {
+.usp .block {
   width: 25%;
   height: auto;
 }
 
 .usp .block .feat-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 180px;
+  height: 180px;
   overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.usp .block p.usp-title {
+  font-weight: 700;
+  color: #1f3f00;
+  font-size: 19px;
+  margin-bottom: 8px
+}
+
+.usp .block p {
+  text-align: center;
 }
 
 .Alleinstellungsmerkmale p {
