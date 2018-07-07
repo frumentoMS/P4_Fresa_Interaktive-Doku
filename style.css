@@ -28,7 +28,7 @@ nav {
   background-color: #fff;
   width: 100%;
   opacity: 1;
-  box-shadow: 2px 3px;
+  border-bottom: 2px solid #1f3f00;
 }
 
 video {
@@ -36,7 +36,7 @@ video {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 
@@ -55,9 +55,6 @@ img {
   color: #9BA63C;
   font-family: "Open Sans";
   font-size: 28px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  margin-right: 0px;
   margin-left: 30px;
   float: left;
   padding: 0.5px 0px 0.5px 10px;
@@ -69,7 +66,8 @@ img {
 
 .content {
   width: 75%;
-  margin: 0 auto;
+  margin: 0 auto !important;
+  max-width: 1000px;
 }
 
 .intro_image {
@@ -81,7 +79,7 @@ img {
   background-repeat: no-repeat;
   width: 100%;
   display: block;
-  height: 90vh;
+  height: 80vh;
   background-position: center;
   position: relative;
   padding-top: 100px;
@@ -120,16 +118,11 @@ img {
 .menu {
   font-size: 16px;
   padding: -40px 5px 5px 5px;
-  margin-top: 50px;
-  margin-bottom: 0px;
-  margin-right: 3%;
-  margin-left: 0px;
   list-style-type: none;
   overflow: hidden;
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  background-color: inherit;
 }
 
 li {
@@ -197,6 +190,18 @@ sup {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.sectionHeading {
+  font-size: 65px;
+  font-family: 'Amatic SC';
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  z-index: 9;
 }
 
 .bio {
@@ -279,7 +284,7 @@ sup {
 }
 
 #slideshow {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   position: relative;
 }
@@ -378,21 +383,25 @@ sup {
   padding-top: 60px;
 }
 
-.FresaDesign_image {
+.sectionHeader {
   font-size: 25px;
-  margin-top: 200px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
   padding-bottom: 50px;
-  background-image: url("./Pics/brainstorming.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   display: block;
-  height: auto;
+  height: 500px;
   background-position: center;
   position: relative;
+  margin-bottom: 64px;
+}
+
+.sectionHeader.unternehmen {
+  background-image: url("./Pics/brainstorming.jpg");
+}
+
+.sectionHeader.produkt {
+  background-image: url("./Pics/material.jpg");
 }
 
 .overlay4 {
@@ -452,8 +461,8 @@ sup {
 }
 
 .part-title {
-  font-family: 'Open Sans';
-  font-size: 40px;
+  font-family: 'Amatic SC';
+  font-size: 50px;
   color: #CB7458;
 }
 
@@ -578,23 +587,20 @@ sup {
   color: white;
   position: relative;
   z-index: 3;
-  margin-top: 20px;
-  padding-top: 60px;
+  top: 50%;
+  transform: translateY(-50%)
 }
 
 .Materialstudie_image {
   font-size: 25px;
   margin-top: 200px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
   padding-bottom: 50px;
   background-image: url("./Pics/material.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   display: block;
-  height: auto;
+  height: 400px;
   background-position: center;
   position: relative;
 }
