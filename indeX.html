@@ -19,7 +19,7 @@
 
     <ul class="menu" id="myHeader">
       <li>
-        <a href="index.html">Fresa</a>
+        <a href="index.html" class="active">Fresa</a>
       </li>
       <li>
         <a href="unternehmen.html">Über uns</a>
@@ -31,7 +31,7 @@
         <a href="pricing.html">Preise</a>
       </li>
       <li>
-        <a href="index.html#kontakt">Kontakt</a>
+        <a href="contact.html">Kontakt</a>
       </li>
     </ul>
   </nav>
@@ -59,7 +59,7 @@
     <div class="Trailer" id="vorschau">
       <div class="video centered-content">
         <video id="video" class="video" controls>
-          <source src="trailer.mp4">
+          <source src="./Pics/trailer.mp4">
         </video>
       </div>
     </div>
@@ -68,38 +68,47 @@
       <h2 class="heading">Fresa ist einzigartig</h2>
 
       <div class="usp">
-        <div class="block">
-          <div class="feat-img">
-            <img src="./Pics/Uhr2.jpg" alt="">
+        <div class="row">
+          <div class="block">
+            <div class="feat-img">
+              <img src="./Pics/Uhr2.jpg" alt="">
+            </div>
+            <p class="usp-title">Spart Zeit</p>
           </div>
-          <p class="usp-title">Fresa spart Zeit</p>
-          <p class="text">Kein langes Warten um Bestellungen entgegen zu nehmen, stattdessen Ware flexibel auf dem Weg nachhause einsammeln.
-            Fresa möchte, dass sie sich regional und gesund ernähren können, ohne wertvolle Zeit ihres wohlverdienten Feierabends
-            zu verlieren.</p>
+          <div class="block">
+            <div class="feat-img">
+              <img src="./Pics/TrekkerTeller2.jpg" alt="">
+            </div>
+            <p class="usp-title">Direkt vom Feld</p>
+          </div>
+          <div class="block">
+            <div class="feat-img">
+              <img src="./Pics/Hand.jpg" alt="">
+            </div>
+            <p class="usp-title">Nachhaltige Produktion</p>
+          </div>
         </div>
-        <div class="block">
-          <div class="feat-img">
-            <img src="./Pics/TrekkerTeller2.jpg" alt="">
+        <div class="row">
+          <div class="block">
+            <div class="feat-img">
+              <img src="./Pics/Karte.jpg" alt="">
+            </div>
+            <p class="usp-title">lecker und frisch</p>
           </div>
-          <p class="usp-title">Vom Feld zum Tisch</p>
-          <p class="text">Fresa garantiert keinen langen Aufenthalt der Ware oder unnötige Zwischenstopps einzulegen. Regionale Lebensmittel
-            direkt vom Feld in deine Speisekammer.</p>
-        </div>
-        <div class="block">
-          <div class="feat-img">
-            <img src="./Pics/Hand.jpg" alt="">
-          </div>
-          <p class="usp-title">Bezug zu Regionalität</p>
-          <p class="text">Fresa bringt seinen Kunden den wertvollen Bezug zur Regionalität wieder und unterstützt lokale Erzeuger.</p>
 
-        </div>
-        <div class="block">
-          <div class="feat-img">
-            <img src="./Pics/Karte.jpg" alt="">
+          <div class="block">
+            <div class="feat-img">
+              <img src="./Pics/Karte.jpg" alt="">
+            </div>
+            <p class="usp-title">Fairer Handel</p>
           </div>
-          <p class="usp-title">Viele Standorte</p>
-          <p class="text">Fresa bietet eine Vielzahl von Speisekammern überall in ihrer Nähe.</p>
 
+          <div class="block">
+            <div class="feat-img">
+              <img src="./Pics/Karte.jpg" alt="">
+            </div>
+            <p class="usp-title">In deiner Nähe</p>
+          </div>
         </div>
       </div>
 
@@ -112,60 +121,39 @@
   <div class="content">
     <div class="section">
       <h2 class="heading">Mehr als nur Bio</h2>
-
-      <p>Auf die Frage, wer oder was das Interesse an Bio-Lebensmitteln gestärkt und geweckt hat, antworteten ganze 65% der
-        Befragten in einer Studie des Bundesministerium für Ernährung und Landwirtschaft, dass es von privaten Kontakten
-        stammt, welche ebenfalls Nutzer/-innen von Bioprodukten sind. Als zweithäufigste Aussage stellte sich die ärztliche
-        Empfehlung und eigene Initiative als Anregung heraus, Bio-Lebensmittel zu verzehren. Andere relativ häufig genannte
-        Beweggründe waren etwa reine Neugier oder neue Produkte im gewohnten Supermarkt Sortiment auszuprobieren, sowie Werbung
-        durch Bioläden und Beratung in diesem oder direkt vom Erzeuger.
-      </p>
+      <div class="col-2">
+        <div class="img-block left">
+          <img src="./Pics/karotte.jpg" alt="Krumme Karotte">
+        </div>
+        <p>Auf die Frage, wer oder was das Interesse an Bio-Lebensmitteln gestärkt und geweckt hat, antworteten ganze 65% der
+          Befragten in einer Studie des Bundesministerium für Ernährung und Landwirtschaft, dass es von privaten Kontakten
+          stammt, welche ebenfalls Nutzer/-innen von Bioprodukten sind. Als zweithäufigste Aussage stellte sich die ärztliche
+          Empfehlung und eigene Initiative als Anregung heraus, Bio-Lebensmittel zu verzehren. Andere relativ häufig genannte
+          Beweggründe waren etwa reine Neugier oder neue Produkte im gewohnten Supermarkt Sortiment auszuprobieren, sowie
+          Werbung durch Bioläden und Beratung in diesem oder direkt vom Erzeuger.
+        </p>
+      </div>
     </div>
     <div class="section">
-      <h2 class="heading Vertrauen">Philosphie</h2>
-      <p>Der direkte Kontakt vom Verkäufer zum Kunden, das ist es, was Menschen schätzen, wenn es um regionale Lebensmittel
-        geht. Bei der Begrüßung angefangen, wird der Kaufprozess von mehreren Ereignissen begleitet. Diese führen dazu, dass
-        der Kunde einen Bezug zum Produkt und zum Erzeuger entwickelt. Hierzu gehören aber auch die Ware anfassen, daran
-        riechen und das Produkt mit allen Sinnen erleben. Das alles schafft die nötige Vertrauensbasis und ist wesentlicher
-        Bestandteil beim Kauf von regionalen Lebensmitteln. Menschen, die bewusst regionale Lebensmittel kaufen, möchten
-        auf diese Dinge nicht verzichten. Umfragen auf städtischen Wochenmärkten bestätigten dies. Die eben genannten Faktoren
-        fallen im Online Lebensmittelhandel weg und sind so gut wie nicht zu ersetzen. Darum ist es notwendig, einen Online
-        Markt für regionale Lebensmittel mit einer Anlaufstelle zu kombinieren, die dazu dient, dem Kunden einen Bezug zum
-        Produkt sowie zum Erzeuger zu ermöglichen.
-      </p>
-    </div>
-  </div>
-
-
-
-
-  <div class="content">
-    <div class="section" id="kontakt">
-      <h2 class="heading">Kontakt</h2>
-      <div class="row">
-        <div class="column">
-          <img src="./Pics/marco.png" alt="Marco" style="width:100%" "height:100%">
-          <p>Marco Frumento marco.frumento@fresa.de
-          </p>
-        </div>
-        <div class="column">
-          <img src="./Pics/hannah.png" alt="Hannah" style="width:100%" "height:100%">
-          <p>Sabine Reitmaier sabine.reitmaier@fresa.de
-          </p>
-        </div>
-        <div class="column">
-          <img src="./Pics/hannah.png" alt="Sabine" style="width:100%" "height:100%">
-          <p>Jan Meininghaus jan.meininghaus@fresa.de
-          </p>
-        </div>
-        <div class="column">
-          <img src="./Pics/jan.png" alt="Jan" style="width:100%" "height:100%">
-          <p>Hannah Ackermann hannah.ackermann@fresa.de
-          </p>
-
-          <script type='text/javascript' src="jquery.js"></script>
+      <h2 class="heading">Wir lieben unsere Kunden</h2>
+      <div class="col-2">
+        <p>Fresa versucht tagtäglich die Wünsche unserer Kunden zu erfüllen. Dafür ist es wichtig stetig in Kontakt mit ihnen
+          zu stehen und Anregrungen und mögliche Beanstandungen zu verbessern. Fresa versucht, das Vertrauen der Kunden zu
+          gewinnen und stellt dem Kunden Zwischenlager zur Verfügung, in denen sie sich die Ware anschauen könne bevor man
+          bestellt.
+        </p>
+        <div class="img-block right">
+          <img src="http:///placekitten.com/600/400" alt="">
         </div>
       </div>
+    </div>
+
+    <div class="section">
+
+      <h2 class="heading continue">
+        <a href="unternehmen.html">Was macht Fresa?</a>
+      </h2>
+
     </div>
   </div>
 

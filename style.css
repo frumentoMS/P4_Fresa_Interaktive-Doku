@@ -48,6 +48,10 @@ img {
   font-size: 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .title {
   float: left;
   width: 400px;
@@ -74,12 +78,11 @@ img {
   font-size: 100px;
   margin-bottom: 0px;
   margin-right: 0px;
-  background-image: url("./Pics/DSC_2649.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   display: block;
-  height: 80vh;
+  height: 500px;
   background-position: center;
   position: relative;
   padding-top: 100px;
@@ -127,7 +130,6 @@ img {
 
 li {
   float: right;
-  font-size: bold;
 }
 
 li a {
@@ -140,6 +142,11 @@ li a {
 .menu>li>a {
   color: #1f3f00;
   padding: 4px 20px 5px 2px;
+  font-size: 19px;
+}
+
+.menu>li>a.active {
+  color: #CB7458;
 }
 
 sup {
@@ -153,8 +160,32 @@ sup {
   margin: 50px 0;
 }
 
-.white {
+.section .col-2 {
+  display: flex;
+}
+
+.section .col-2 .img-block img {
+  width: 100%;
+  max-width: 700px;
+}
+
+.section .col-2 .img-block.left {
+  margin-right: 32px
+}
+
+.section .col-2 .img-block.right {
+  margin-left: 32px
+}
+
+.section .white {
   color: #fff;
+}
+
+.full-width img {
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
 }
 
 .section p {
@@ -162,6 +193,56 @@ sup {
   width: 90%;
   line-height: 1.7;
   font-size: 16px;
+}
+
+.section iframe {
+  width: 100%;
+  height: 500px
+}
+
+.price-gen {
+  display: flex;
+  height: 400px;
+  margin: 64px 0;
+}
+
+.price-gen h2 {
+  font-family: 'Amatic SC';
+  font-size: 50px;
+  color: #CB7458;
+}
+
+.price-gen .persons,
+.price-gen .price,
+.price-gen .vol {
+  width: 100%;
+  height: 300px;
+  color: #9BA63C;
+}
+
+.price-gen .up,
+.price-gen .down {
+  text-align: center;
+  font-size: 21px;
+}
+
+.price-gen .persons h2,
+.price-gen .price h2,
+.price-gen .vol h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.price-gen .persons .counter,
+.price-gen .price .price-res,
+.price-gen .vol .vol-res {
+  text-align: center;
+  font-size: 100px;
+}
+
+.price-gen .price .price-res,
+.price-gen .vol .vol-res {
+  padding: 28px 0;
 }
 
 .valueProposition p {
@@ -192,6 +273,16 @@ sup {
   margin-bottom: 40px;
 }
 
+.heading.continue {
+  font-size: 50px;
+  color: #9BA63C;
+}
+
+.heading.continue a {
+  border-bottom: 3px solid #9BA63C;
+  color: #9BA63C;
+}
+
 .sectionHeading {
   font-size: 65px;
   font-family: 'Amatic SC';
@@ -215,10 +306,11 @@ sup {
 .usp {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .usp .block {
-  width: 25%;
+  width: 100%;
   height: auto;
 }
 
@@ -230,6 +322,12 @@ sup {
   margin-bottom: 20px;
 }
 
+.usp .block .feat-img img {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
 .usp .block p.usp-title {
   font-weight: 700;
   color: #1f3f00;
@@ -239,6 +337,16 @@ sup {
 
 .usp .block p {
   text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.material img {
+  width: 250px;
+  height: 250px;
+  margin: 64px 0
 }
 
 .Alleinstellungsmerkmale p {
@@ -403,15 +511,13 @@ sup {
 
 .sectionHeader {
   font-size: 25px;
-  padding-bottom: 50px;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   display: block;
-  height: 500px;
+  height: 100%;
   background-position: center;
   position: relative;
-  margin-bottom: 64px;
 }
 
 .sectionHeader.unternehmen {
@@ -420,6 +526,10 @@ sup {
 
 .sectionHeader.bio {
   background-image: url("./Pics/warumbio.jpg");
+}
+
+.sectionHeader.produkt {
+  background-image: url("./Pics/material.jpg");
 }
 
 .overlay4 {
@@ -462,6 +572,7 @@ sup {
 
 .part {
   width: 50%;
+  height: 100%;
 }
 
 .Fresa-Konzept {
@@ -831,10 +942,6 @@ sup {
   margin-top: 550px;
   padding-top: -40px;
   margin-bottom: 80px;
-}
-
-.row {
-  margin-top: -40px;
 }
 
 .Kontakt {

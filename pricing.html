@@ -7,7 +7,6 @@
   <title>Fresa</title>
   <meta charset="utf-8" />
   <link href="style.css" rel="stylesheet">
-  <script type='text/javascript' src="jquery.js"></script>
 </head>
 
 <body>
@@ -29,10 +28,10 @@
         <a href="produkt.html">Die Speisekammer</a>
       </li>
       <li>
-        <a href="pricing.html">Preise</a>
+        <a href="pricing.html" class="active">Preise</a>
       </li>
       <li>
-        <a href="index.html#kontakt">Kontakt</a>
+        <a href="contact.html">Kontakt</a>
       </li>
     </ul>
   </nav>
@@ -40,15 +39,81 @@
     <div class="sectionHeader pricing">
       <div class="overlay5">
       </div>
-      <h2 class="heading Unsere_Materialien">Die Speisekammer</h2>
+      <h2 class="heading Unsere_Materialien">Preise</h2>
 
     </div>
   </div>
   <div class="content">
     <div class="section">
-      <h2 class="heading">Unsere Preise</h2>
+      <p>Bei Fresa sind die Preise darauf angepasst, wie groß der Bedarf der Personen im Haushalt ist. Du bekommst jeden Monat
+        ein vorbestimmtes Monatsvolumen in kg an Obst und Gemüse, welches bei jeder bestellung schrumpft. </br> Wenn Du mal
+        mehr benötigst, bezahlst du einen festgelegten Kilopreis.</p>
+      <div class="price-gen">
+        <div class="persons">
+          <h2>Anzahl der Personen</h2>
+          <div class="up" id="up">▲</div>
+          <div class="counter">
+            1
+          </div>
+          <div class="down" id="down">▼</div>
+        </div>
+        <div class="price">
+          <h2>Dein Preis</h2>
+
+          <div class="price-res">
+            69€
+          </div>
+        </div>
+        <div class="vol">
+          <h2>Dein Volumen</h2>
+          <div class="vol-res">
+            15kg
+          </div>
+        </div>
+      </div>
+      <h2 class="heading">Was ist alles enthalten?</h2>
+      <p>Wir haben eine große Auswahl an regionalen Obst- und Gemüsesorten, die sich über das ganze Jahr hinweg ändert. Immer
+        angepasst an die jeweilige Saison.</p>
     </div>
+
+    <div class="section">
+
+      <h2 class="heading continue">
+        <a href="contact.html">Wer steht hinter Fresa?</a>
+      </h2>
+
+    </div>
+
   </div>
+  <script type='text/javascript' src="jquery.js"></script>
+  <script>
+    var persons = 1;
+    $('#up').click(function () {
+      persons++;
+      $('.counter').text(persons)
+      updatePrice()
+    })
+    $('#down').click(function () {
+      if (persons > 1) {
+        persons--;
+        $('.counter').text(persons)
+        updatePrice()
+      }
+    })
+
+    function updatePrice() {
+      if (persons <= 1) {
+        $('.price-res').text('69€')
+        $('.vol-res').text('15kg')
+      } else if (persons > 1 && persons <= 3) {
+        $('.price-res').text('89€')
+        $('.vol-res').text('30kg')
+      } else if (persons > 3 && persons <= 6) {
+        $('.price-res').text('109€')
+        $('.vol-res').text('40kg')
+      }
+    }
+  </script>
 
 </body>
 
